@@ -1,0 +1,111 @@
+@font-face {
+    font-family: IRANSansUltraLight;
+    src: url("./../Fonts/IRANSans_UltraLight.ttf");
+}
+@font-face {
+    font-family: IRANSansLight;
+    src: url("./../Fonts/IRANSans_Light.ttf");
+}
+@font-face {
+    font-family: IRANSans;
+    src: url("./../Fonts/IRANSans.ttf");
+}
+@font-face {
+    font-family: IRANSansMedium;
+    src: url("./../Fonts/IRANSans_Medium.ttf");
+}
+@font-face {
+    font-family: IRANSansBold;
+    src: url("./../Fonts/IRANSans_Bold.ttf");
+}
+@font-face {
+    font-family: IRANSansUltraBold;
+    src: url("./../Fonts/IRANSans_Black.ttf");
+}
+* {
+    font-family: IRANSans;
+}
+body {
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.hidden {
+    display: none!important;
+}
+.splash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: rgba(255 , 255 , 255 , 0.85);
+    width: 100%;
+    height: 100%;
+    z-index: 1111111;
+}
+.splash img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.bg-d {
+    background: #1C8BAF;
+}
+.bg-l {
+    background: #8CDBF4;
+}
+.bgc-d {
+    background-color: #1C8BAF;
+}
+.bgc-l {
+    background-color: #8CDBF4;
+}
+.text-d {
+    color: #1C8BAF;
+}
+.text-l {
+    color: #8CDBF4;
+}
+.fill-l {
+    fill: #8CDBF4;
+}
+.fill-d {
+    fill: #1C8BAF;
+}
+.nbg-btn {
+    border: 1px solid transparent!important;
+    border-radius: 2.5px!important;
+    background: none!important;
+    padding: 7.5px!important;
+}
+.nbg-btn:hover {
+    border: 1px solid #FFFFFF!important;
+    background-color: rgba(255 , 255 , 255 , 0.5)!important;
+}
+svg.icon:not(.active) {
+    border-bottom: 2.5px solid transparent;
+}
+svg.icon.active {
+    border-bottom: 2.5px solid #FFFFFF;
+}
+.buttons {
+    position: absolute;
+    left: 0px;
+}
+.d-ltr {
+    direction: ltr;
+}
+.d-rtl {
+    direction: rtl;
+}
+.menu-icon::after {
+    display: none!important;
+}
+.dropdown-item.active , .dropdown-item:active {
+    background: none!important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgba(255 , 255 , 255 , 0.5)!important;
+}

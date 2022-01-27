@@ -1,0 +1,50 @@
+body {
+    background-color: #1C8BAF;
+}
+.btn-pr {
+    color: #FFFFFF;
+    background-color: #1C8BAF;
+    border: 1px solid #FFFFFF;
+}
+.btn-pr:hover {
+    border-color: #1C8BAF;
+    color: #FFFFFF;
+}
+.Form {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #8CDBF4;
+}
+input {
+    font-family: IRANSans;
+    border: 1px solid #1C8BAF;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1C8BAF;
+    direction: rtl;
+    margin-top: 10px;
+    width: 100%;
+}
+input::placeholder {
+    color: #1C8BAF;
+}
+input:hover {
+    border-color: #8CDBF4;
+}
+input:focus {
+    outline: 0;
+}
+.stateText {
+    display: none;
+    color: #8CDBF4;
+    background-color: #1C8BAF;
+    border-radius: 10px;
+    border: 0;
+    margin: 0;
+    padding: 5px;
+}
